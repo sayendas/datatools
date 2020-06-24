@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "paradropdown", "paradropdown\paradropdown.rptproj", "{167AD328-634A-49CF-A275-24C1FE33BD9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{167AD328-634A-49CF-A275-24C1FE33BD9B}.Debug|Default.ActiveCfg = Debug
+		{167AD328-634A-49CF-A275-24C1FE33BD9B}.Debug|Default.Build.0 = Debug
+		{167AD328-634A-49CF-A275-24C1FE33BD9B}.Debug|Default.Deploy.0 = Debug
+		{167AD328-634A-49CF-A275-24C1FE33BD9B}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{167AD328-634A-49CF-A275-24C1FE33BD9B}.DebugLocal|Default.Build.0 = DebugLocal
+		{167AD328-634A-49CF-A275-24C1FE33BD9B}.Release|Default.ActiveCfg = Release
+		{167AD328-634A-49CF-A275-24C1FE33BD9B}.Release|Default.Build.0 = Release
+		{167AD328-634A-49CF-A275-24C1FE33BD9B}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDB84BB2-2679-420F-9B12-F0FD6F13BBD7}
+	EndGlobalSection
+EndGlobal

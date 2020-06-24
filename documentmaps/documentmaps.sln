@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "documentmaps", "documentmaps\documentmaps.rptproj", "{EE9437E3-0B88-4058-B07C-4EEF50EBFC89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE9437E3-0B88-4058-B07C-4EEF50EBFC89}.Debug|Default.ActiveCfg = Debug
+		{EE9437E3-0B88-4058-B07C-4EEF50EBFC89}.Debug|Default.Build.0 = Debug
+		{EE9437E3-0B88-4058-B07C-4EEF50EBFC89}.Debug|Default.Deploy.0 = Debug
+		{EE9437E3-0B88-4058-B07C-4EEF50EBFC89}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{EE9437E3-0B88-4058-B07C-4EEF50EBFC89}.DebugLocal|Default.Build.0 = DebugLocal
+		{EE9437E3-0B88-4058-B07C-4EEF50EBFC89}.Release|Default.ActiveCfg = Release
+		{EE9437E3-0B88-4058-B07C-4EEF50EBFC89}.Release|Default.Build.0 = Release
+		{EE9437E3-0B88-4058-B07C-4EEF50EBFC89}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {298B917A-E50C-4B80-84D4-84DD5175F644}
+	EndGlobalSection
+EndGlobal

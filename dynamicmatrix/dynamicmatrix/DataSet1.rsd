@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>DataSource1</DataSourceReference>
+      <CommandText>SELECT tblCertificate.Certificate, tblCountry.CountryName, tblDirector.DirectorName, tblStudio.StudioName, tblFilm.FilmRunTimeMinutes, tblFilm.FilmBudgetDollars, tblFilm.FilmBoxOfficeDollars, tblFilm.FilmOscarNominations, 
+                  tblFilm.FilmOscarWins
+FROM     tblCertificate INNER JOIN
+                  tblFilm ON tblCertificate.CertificateID = tblFilm.FilmCertificateID INNER JOIN
+                  tblCountry ON tblFilm.FilmCountryID = tblCountry.CountryID INNER JOIN
+                  tblDirector ON tblFilm.FilmDirectorID = tblDirector.DirectorID INNER JOIN
+                  tblStudio ON tblFilm.FilmStudioID = tblStudio.StudioID</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="Certificate">
+        <DataField>Certificate</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CountryName">
+        <DataField>CountryName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="DirectorName">
+        <DataField>DirectorName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="StudioName">
+        <DataField>StudioName</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="FilmRunTimeMinutes">
+        <DataField>FilmRunTimeMinutes</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="FilmBudgetDollars">
+        <DataField>FilmBudgetDollars</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="FilmBoxOfficeDollars">
+        <DataField>FilmBoxOfficeDollars</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="FilmOscarNominations">
+        <DataField>FilmOscarNominations</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="FilmOscarWins">
+        <DataField>FilmOscarWins</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

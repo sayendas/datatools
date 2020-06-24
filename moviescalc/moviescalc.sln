@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "moviescalc", "moviescalc\moviescalc.rptproj", "{56ECD922-98E4-41F3-9954-2E526A175482}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56ECD922-98E4-41F3-9954-2E526A175482}.Debug|Default.ActiveCfg = Debug
+		{56ECD922-98E4-41F3-9954-2E526A175482}.Debug|Default.Build.0 = Debug
+		{56ECD922-98E4-41F3-9954-2E526A175482}.Debug|Default.Deploy.0 = Debug
+		{56ECD922-98E4-41F3-9954-2E526A175482}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{56ECD922-98E4-41F3-9954-2E526A175482}.DebugLocal|Default.Build.0 = DebugLocal
+		{56ECD922-98E4-41F3-9954-2E526A175482}.Release|Default.ActiveCfg = Release
+		{56ECD922-98E4-41F3-9954-2E526A175482}.Release|Default.Build.0 = Release
+		{56ECD922-98E4-41F3-9954-2E526A175482}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {588DC82A-61D7-43DF-B742-C24DA5BDBCCD}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "gaugestypes", "gaugestypes\gaugestypes.rptproj", "{BE813C21-89CA-45C9-A03F-82C168A0991D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE813C21-89CA-45C9-A03F-82C168A0991D}.Debug|Default.ActiveCfg = Debug
+		{BE813C21-89CA-45C9-A03F-82C168A0991D}.Debug|Default.Build.0 = Debug
+		{BE813C21-89CA-45C9-A03F-82C168A0991D}.Debug|Default.Deploy.0 = Debug
+		{BE813C21-89CA-45C9-A03F-82C168A0991D}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{BE813C21-89CA-45C9-A03F-82C168A0991D}.DebugLocal|Default.Build.0 = DebugLocal
+		{BE813C21-89CA-45C9-A03F-82C168A0991D}.Release|Default.ActiveCfg = Release
+		{BE813C21-89CA-45C9-A03F-82C168A0991D}.Release|Default.Build.0 = Release
+		{BE813C21-89CA-45C9-A03F-82C168A0991D}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0B3E290-AA04-4AB5-9EF2-3F4772E70AE0}
+	EndGlobalSection
+EndGlobal

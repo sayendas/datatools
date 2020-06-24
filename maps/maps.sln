@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "maps", "maps\maps.rptproj", "{304F8738-2246-4374-AC1E-2132A6B243BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{304F8738-2246-4374-AC1E-2132A6B243BD}.Debug|Default.ActiveCfg = Debug
+		{304F8738-2246-4374-AC1E-2132A6B243BD}.Debug|Default.Build.0 = Debug
+		{304F8738-2246-4374-AC1E-2132A6B243BD}.Debug|Default.Deploy.0 = Debug
+		{304F8738-2246-4374-AC1E-2132A6B243BD}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{304F8738-2246-4374-AC1E-2132A6B243BD}.DebugLocal|Default.Build.0 = DebugLocal
+		{304F8738-2246-4374-AC1E-2132A6B243BD}.Release|Default.ActiveCfg = Release
+		{304F8738-2246-4374-AC1E-2132A6B243BD}.Release|Default.Build.0 = Release
+		{304F8738-2246-4374-AC1E-2132A6B243BD}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84F5F2D1-D91E-4E6C-B87B-7AD9B4CA95BD}
+	EndGlobalSection
+EndGlobal
